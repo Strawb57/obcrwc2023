@@ -228,4 +228,8 @@ ul{
         display: none;
     }
 
+    .pos_head {
+        width: 95%;
+    }
+
 }
