@@ -172,7 +172,7 @@ ul{
 
     background-color: lightgreen;
     margin: auto;
-    width: 50%;
+    width: 95%;
     padding: 20px;
 }
 
@@ -229,7 +229,7 @@ ul{
     }
 
     .pos_head {
-        width: 95%;
+        width: 50%;
     }
 
 }
