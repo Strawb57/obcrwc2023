@@ -49,10 +49,13 @@ a{
 ul{
     list-style: none;
     padding: 10px;
+    border: #000 solid 2px;
+    border-radius: 3px;
 }
 
 li {
     background-color: var(--yellow);
+    padding: 10px;
 }
 
 .container {
