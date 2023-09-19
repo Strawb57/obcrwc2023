@@ -178,6 +178,7 @@ img {
 }  
 
 .flex-child:first-child {
+    margin-bottom: 20px;
     margin-right: 20px;
     padding: 20px;
     background-color: #62FCF2;
@@ -187,6 +188,7 @@ img {
     .flex-container {
       flex-direction: column;
     }
+
   }
 
 
