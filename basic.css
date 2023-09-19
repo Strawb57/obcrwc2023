@@ -58,6 +58,14 @@ li {
     padding: 10px;
 }
 
+li:nth-child(even) {
+    background-color: var(--yellow);
+  }
+
+li:nth-child(odd) {
+    background-color: var(--lightgreen);
+  }
+
 .container {
     background-color: var(--blue);
     margin: auto;
@@ -143,23 +151,6 @@ li {
     margin: auto;
 }
 
-/* .one {
-    margin: 0;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 3px;
-    background-color: aliceblue;
-    display: inline-block;
-    height: 50px;
-    width: 50%;
-}
-
-.two {
-    background-color: #00f;
-    display: inline-block;
-    height: 50px;
-    width: 50%;
-} */
   
 img {
     max-width: 100%;
