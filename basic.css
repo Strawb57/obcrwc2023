@@ -168,8 +168,8 @@ img {
   
   .flex-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
 }
 
 .flex-child {
@@ -184,9 +184,33 @@ img {
     background-color: #62FCF2;
 } 
 
+.flex-child td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .flex-child table {
+    margin: 0 auto 0 auto;
+  }
+  
+ .flex-child tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .flex-child tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+
+
 @media (max-width: 650px) {
     .flex-container {
       flex-direction: column;
+    }
+
+    .flex-child {
+        margin: auto;
     }
 
   }
